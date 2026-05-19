@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hellocodeforces",
+  "compatibility_date": "2026-05-19",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "public",
+    "binding": "ASSETS"
+  },
+  "build": {
+    "command": "hugo"
+  }
+}
