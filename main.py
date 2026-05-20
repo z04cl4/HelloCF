@@ -55,6 +55,8 @@ async def cf(interaction: discord.Interaction):
 		color=0x5865F2
 	)
 
+	contests.reverse()
+
 	for contest in contests[:5]:
 
 		ts = contest["startTimeSeconds"]
